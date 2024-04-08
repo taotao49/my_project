@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "card": "/components/common/card",
+    "bar_title": "/components/diy/bar_title",
+    "list_menu": "/components/diy/list_menu",
+    "list_goods": "/components/diy/list_goods",
+    "slide": "/components/common/slide",
+    "notice": "/components/common/notice"
+  }
+}

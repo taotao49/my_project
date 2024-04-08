@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webview/webview",
+    "pages/authorization/authorization",
+    "pages/authorization/authorization-weixin",
+    "pages/authorization/authorization-weibo",
+    "pages/comment/edit",
+    "pages/comment/view",
+    "pages/media/music",
+    "pages/media/image",
+    "pages/media/video",
+    "pages/account/forgot",
+    "pages/account/login",
+    "pages/account/register",
+    "pages/goods/list",
+    "pages/goods/details",
+    "pages/cart/index",
+    "pages/cart/list",
+    "pages/order/index",
+    "pages/order/list",
+    "pages/order/details",
+    "pages/pay/index",
+    "pages/logistics_delivery/table",
+    "pages/logistics_delivery/view",
+    "pages/user/address",
+    "pages/user/address_edit",
+    "pages/fruit_mall/list",
+    "pages/fruit_mall/details",
+    "pages/regular_users/table",
+    "pages/regular_users/view",
+    "pages/cancel_order/table",
+    "pages/cancel_order/view",
+    "pages/user/collect",
+    "pages/user/index",
+    "pages/user/password",
+    "pages/user/info",
+    "pages/user_center/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "长盛",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#3388FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/home_a.png",
+        "selectedIconPath": "static/img/home_b.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "static/img/cart_a.png",
+        "selectedIconPath": "static/img/cart_b.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "static/img/my_a.png",
+        "selectedIconPath": "static/img/my_b.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}

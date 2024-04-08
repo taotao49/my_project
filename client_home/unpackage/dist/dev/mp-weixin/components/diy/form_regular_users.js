@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/diy/form_regular_users"],{"189d":function(e,t,o){},"198f":function(e,t,o){"use strict";(function(e){t["a"]={model:{prop:"form",event:"change"},props:{form:{type:Object,default:function(){return{url_upload:"~/api/regular_users/upload?"}}}},data:function(){return{}},methods:{change_img:function(t){var o=this;o.upload_img_flag=!1,e.chooseImage({count:1,sizeType:["original","compressed"],sourceType:["album"],success:function(r){var a=r.tempFilePaths,n=e.uploadFile({url:o.$fullUrl("/api/regular_users/upload?"),filePath:a[0],name:"file",formData:{i_want_to_customize:"test"},header:{"x-auth-token":"null"},success:function(e){var r=JSON.parse(e.data).result.url;o.$delete(o.form,t),o.$set(o.form,t,r),o.handleBlur(r,t)}});n.onProgressUpdate((function(e){o.percent=e.progress,console.log("上传进度"+e.progress),console.log("已经上传的数据长度"+e.totalBytesSent),console.log("预期需要上传的数据总长度"+e.totalBytesExpectedToSend)}))},error:function(e){console.log(e)}})},handleBlur:function(e,t){this.$emit("change",{value:e,type:t})}},mounted:function(){}}}).call(this,o("543d")["default"])},ca6e:function(e,t,o){"use strict";var r=o("189d"),a=o.n(r);a.a},df6d:function(e,t,o){"use strict";var r;o.r(t);var a,n=function(){var e=this,t=e.$createElement,o=(e._self._c,e.$check_register_field("add","user_name","/regular_users/view")),r=e.$check_register_field("add","user_phone_number","/regular_users/view");e.$mp.data=Object.assign({},{$root:{m0:o,m1:r}})},s=[],l=o("198f"),u=l["a"],c=(o("ca6e"),o("f0c5")),i=Object(c["a"])(u,n,s,!1,null,null,null,!1,r,a);t["default"]=i.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/diy/form_regular_users-create-component',
+    {
+        'components/diy/form_regular_users-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("df6d"))
+        })
+    },
+    [['components/diy/form_regular_users-create-component']]
+]);

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-datetime-picker": "/components/uni-datetime-picker/uni-datetime-picker",
+    "new-bar-chart": "/components/charts/new_bar_chart",
+    "new-line-chart": "/components/charts/new_line_chart"
+  }
+}

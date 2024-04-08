@@ -1,0 +1,31 @@
+{
+  "description": "项目配置文件。",
+  "setting": {
+    "urlCheck": false,
+    "postcss": true,
+    "minified": true,
+    "ignoreUploadUnusedFiles": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "es6": false,
+    "enhance": false,
+    "coverView": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "3.3.5",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wxbad41135e5db8402"
+}
